@@ -3,7 +3,8 @@ import requests
 import json
 
 # Pegando a chave de forma segura via secrets
-API_KEY = st.secrets["API_KEY"]
+API_KEY = st.secrets["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
+"]
 
 url = "https://openrouter.ai/api/v1/chat/completions"
 headers = {
